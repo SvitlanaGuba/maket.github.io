@@ -1,0 +1,431 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nunito:wght@600;700&family=Open+Sans:wght@400;600&display=swap');
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+/*Header*/
+body {
+    box-sizing: border-box;
+     
+}
+.first_block{
+    
+    background-image: url(../image/header.png);
+    background-repeat: no-repeat;
+    
+}
+.header {
+  width: 1120px;
+  height: 668px; 
+  margin: 0 auto;
+  
+  
+}
+header {
+    width: 1120px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+.logo {
+    width: 152px;
+    height: 43px;
+    color: #ffffff;
+    font-family: "Kaushan Script";
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0.9px;
+    margin-top: 65px;
+    margin-right: 380px;
+    margin-left: 0;
+    padding: 5px;
+
+}
+.nav {
+    width: 968px;
+    margin-top: 78px;
+    
+}
+ul {
+    text-align: center;
+    display: flex;  
+}
+ul>li a {
+    width: 117px;
+    height: 16px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: "Nunito - Semi Bold";
+    letter-spacing: 0.45px;
+    text-decoration: none;
+}
+li+li {
+    margin-left: 40px;
+}
+.active {
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ffffff;
+}
+.slogan {
+    margin: 80px 56px 43px 56px;
+    text-align: center;
+}
+.new_product {
+    width: 998px;
+    height: 103px;
+    color: #ffffff;
+    font-family: "Nunito - Semi Bold";
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 1.2px;
+    font-weight: 400;
+    
+}
+.slog2 {
+    display: inline-block;
+    position: relative;
+    top:-17px;
+    font-size: 22px;
+   
+}
+.slog1 {
+   font-size: 40px; 
+   letter-spacing: 1px;
+}
+.slog3 {
+    width: 600px;
+    height: 52px;
+    color: #ffffff;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.45px;
+    margin: 47px 200px 43px;
+}
+.button {
+    width: 400px;
+    display: inline-block;
+    font-size:0;
+    margin: 40px 390px 100px 376px;
+    text-align: center;
+   
+}
+
+.button ul>li>a {
+   display: inline-block;
+   width: 93px;
+   height: 13px;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 36px;
+   padding: 14px 35px;
+   vertical-align: middle;
+   border: 2px solid #fff;
+   font-family: Nunito;
+   letter-spacing: 0.35px;
+   
+}
+
+.btn1 a {
+    margin-right: 30px;
+    color:#fff;
+}
+.btn2 a  {
+    background: #fff;
+    color:#000;
+}
+
+/*.btn1:hover {
+  background: #fff;
+  color:#000;
+}*/
+.arrow a{
+    width: 40px;
+    height: 21px;
+    display: block;
+    position: relative;
+    
+}
+.arrow a img {
+    position: absolute;
+    left: 155px;
+    top: 40px;
+}
+ 
+/*Second_block*/
+.second_block {
+    background-image: url(../image/Screen_2_background.png);
+}
+.main {
+
+    width: 1120px;
+    height: 644px;
+    margin: 0 auto;
+    border: 1px solid transparent;
+}  
+
+h2 {
+    color: #0f1417;
+    font-family: Nunito;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    margin-top: 53px;
+    text-align: center;
+    padding: 0 15px;
+    margin-bottom: 36px;
+}
+.main_text {
+    text-align: center;
+    color: #0f1417;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.35px;
+}
+div img {
+    display: block;
+    margin: 44px auto;
+}
+.
+.baget img {
+    margin-top: 12px;   
+}
+.arrow1 {
+    width: 40px;
+    height: 21px;
+    display: block;
+    position: relative;
+    
+}
+.arrow1 a img {
+    position: absolute;
+    left: 530px;
+    bottom: 4px;
+}
+
+/*Main2*/
+
+.main2 {
+    width: 1120px;
+    
+    margin: 0 auto;
+    
+}
+.main2>h2 {
+    margin-bottom: 42px;
+}
+.img {
+    display: inline-block;
+    width: 18px;
+    margin-left: 100px;
+    margin-right: 41px;
+    margin-top: 100px;
+   
+}
+.main_line {
+    
+    display: inline-block;
+    
+    font-size: 0;
+    text-align: center;
+   
+}
+.line {
+    display: inline-block;
+    position: relative;
+    width: 92px;
+    height: 85px;
+    padding-top: 149px;
+    padding: 149px 34px 38px;
+    margin-left: 28px;
+    color: #0f1417;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.35px;
+    box-shadow: 0 6px 9px rgba(2, 6, 18, 0.04);
+    background-color: #ffffff;
+    
+}
+.line:before {
+    content:"";
+    width: 110px;
+    height: 110px;
+    background: url(../image/css_sprites.png);
+    padding: 20px 25px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+  
+}
+.one:before {
+    background-position: -300px 0;
+}
+.two:before {
+    background-position: 11px 0;
+}
+.three:before {
+    background-position: -460px 0;
+}
+.four:before {
+    background-position: -145px 0;
+}
+.four {
+    margin-left: 37px;
+    border: 1px solid black;
+}
+.span {
+ 
+    color: #0f1417;
+    font-family: "Open Sans - Semi Bold";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+}
+.span2 {
+    color: #0f1417;
+    font-family: Nunito;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+}
+
+.im {
+    margin-left: 50px;
+}
+.point {
+    padding: 0;
+    margin-top: 34px;
+    margin-bottom: 28px;
+    
+}
+.stock {
+    width: 470px;
+    height: 37px;
+    text-align: center;
+    padding: 0 330px;
+    color: #170e0e;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.35px;
+}
+.button,.but {
+  margin-bottom: 40px;  
+}
+.but ul>li>a {
+    
+    border: 2px solid #000;
+} 
+.btn3 {
+    color: #000;
+    
+}
+.btn4 {
+    color: #fff;
+    background: #000;
+    
+}
+/*Third_block*/
+.third_block {
+    background-image: url(../image/baner.png);
+}
+.baner {
+    height: 525px;
+    
+    background-size: 100vw 525px;
+    background-repeat: no-repeat;
+    
+}
+.h2 {
+    color: #ffffff;
+    font-family: Nunito;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.8px;  
+    padding-top: 61px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.baner_text {
+    width: 1100px;
+    height: 43px;
+    text-align: center;  
+    padding-bottom: 30px;
+    margin: 0;
+}
+.baner p {
+    color: #ffffff;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.35px;
+}
+.baner_img img {
+    margin-top:30px;
+    margin-bottom: 40px;
+}
+
+/*font-family: 'Kaushan Script', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+/* Style for "BakeryBo" */
